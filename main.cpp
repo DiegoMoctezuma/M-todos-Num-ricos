@@ -199,16 +199,7 @@ struct Tabla {
                 this->iteracion = "-";
             }
 
-            if(fk0 * fk1 < 0){
-                k0 = k0;
-            }else {
-                k0 = k1;
-            }
-            if(fk * fk1 < 0){
-                k = k;
-            }else {
-                k = k1;
-            }
+            k = k1;
         }
     }
 
