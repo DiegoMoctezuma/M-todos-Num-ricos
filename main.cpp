@@ -1,7 +1,15 @@
+//Progama uno de la materia Métodos Numéricos
+//Autores:
+//  - Moctezuma Ramirez Diego Rafael
+//  - Segura Loera Carlos Emiliano
+//  - Ruiz Garcia Emiliano
+//  - Moreno Vigueras Arturo Tadeo
+
 #include <fstream>
 #include <string>
 #include <memory>
 #include <vector>
+#include<math.h>
 
 #include <ftxui/component/captured_mouse.hpp>
 #include <ftxui/component/component.hpp>
@@ -312,7 +320,7 @@ int main(){
                 }) | center,
                 separatorEmpty(),
                 window(text("Resultados") | center | color(Color::Gold1),{
-                    text("Raíz: " + resultado.raiz + " en el intervalo [" + intervaloInicial + "," + intervaloFinal + "] en la iteración: " + resultado.iteracion ) | center | color(Color::Gold1)
+                    text("Raíz: " + resultado.raiz + " en el intervalo [" + intervaloInicial + "," + intervaloFinal + "] en la iteración: " + resultado.iteracion) | center | color(Color::Gold1)
                 })| center,
             })
         }) | size(WIDTH, LESS_THAN, 150) | center;

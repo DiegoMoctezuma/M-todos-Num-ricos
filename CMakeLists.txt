@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.27.2)
+cmake_minimum_required(VERSION 3.30.0)
 project(programaUno LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
