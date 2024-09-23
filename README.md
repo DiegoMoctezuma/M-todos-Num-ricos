@@ -5,6 +5,9 @@
 - Ruiz García Emiliano
 - Moreno Vigueras Arturo Tadeo
 
+## Código fuente ⛲️
+[Ver código](https://github.com/DiegoMoctezuma/Metodos-Numericos/blob/main/main.cpp)
+
 ## Descarga del ejecutable ✅
 ⬇️ [Link al zip del programa](https://github.com/DiegoMoctezuma/Metodos-Numericos/blob/main/programaUnoEjecutable.zip)
 <p align="center">
