@@ -198,6 +198,7 @@ struct Tabla {
                 this->iteracion = "-";
             }
 
+            k0 = k;
             k = k1;
         }
     }
