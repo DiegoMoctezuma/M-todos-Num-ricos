@@ -21,7 +21,6 @@
 #include <ftxui/dom/elements.hpp>
 #include <ftxui/dom/flexbox_config.hpp>
 
-using uint = unsigned int;
 using namespace std;
 using namespace ftxui;
 
